@@ -1,0 +1,16 @@
+---
+# tasks file for php
+
+- name: Installing php
+  yum:
+   name:
+    - php
+    - php-common
+    - php-cli
+    - php-gd
+    - php-curl #You can add or remove PHP extensions according to your choice
+    - php-mysqlnd
+    - php-fpm
+    - php-mysqli
+    - php-pgsql
+   state: latest

@@ -1,0 +1,8 @@
+---
+- name: Installation role users
+  hosts: all
+  become: yes
+  roles:
+          #   - apache
+          - postgresql
+            # - php

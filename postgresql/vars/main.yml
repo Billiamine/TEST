@@ -1,0 +1,7 @@
+---
+# vars file for postgresql
+db_user: lampp
+db_password: lampp
+db_name: lampp
+
+
