@@ -4,5 +4,6 @@
   become: yes
   roles:
           #   - apache
-          - postgresql
+          #  - postgresql
             # - php
+          - deploiement

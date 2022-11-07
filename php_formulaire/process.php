@@ -19,7 +19,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    $sql = "INSERT INTO employee (first_name,last_name,city_name,email) VALUES ('$first_name', '$last_name','$city_name','$email')";
     $conn->exec($sql);
-    echo "Nous avons bien engistrer votre commande";
+    echo "Nous avons bien engistré votre commande";
     }
 catch(PDOException $e)
     {
@@ -29,14 +29,17 @@ catch(PDOException $e)
 
 $conn = null;
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-     <title>Test</title>
+     <title>Table des employées</title>
 
-<li style='font-size:18px;'><a href='logout.php?logout-submit=logout'>Logout</a></li>
+<li style='font-size:18px;'><a href='logout.php?logout-submit=logout'> Retour au formulaire </a></li>
 
 
   </body>
 </html>
+
 

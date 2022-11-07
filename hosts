@@ -1,4 +1,4 @@
 [db]
-database ansible_user=adm1
+192.168.52.142 ansible_user=adm1
 
 

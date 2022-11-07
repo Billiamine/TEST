@@ -74,10 +74,11 @@
       postgresql_table:
         db: "{{ db_name }}"
         owner: "{{ db_name }}"
-        name: test_table
+        name: employee
         columns:
-        - id bigserial primary key
-        - num bigint
-        - stories text
+        - first_name VARCHAR(20)
+        - last_name VARCHAR(2)
+        - city_name VARCHAR(20)
+        - email VARCHAR(20)
       become_user: postgres
 

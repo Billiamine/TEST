@@ -1,3 +1,5 @@
+<h1> Formulaire </h1>
+
 <!DOCTYPE html>
 <html>
   <body>
@@ -19,12 +21,14 @@
   </body>
 </html>
 
+<h1> Table des employées</h1>
 
 <?php
 $user = "lampp";
 $password = "lampp";
 $database = "lampp";
 $table = "employee";
+
 
 try {
 
