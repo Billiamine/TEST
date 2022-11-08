@@ -70,15 +70,15 @@
       notify: restart postgres
 
 
-    - name: Create test_table
+    - name: Create table employee
       postgresql_table:
         db: "{{ db_name }}"
         owner: "{{ db_name }}"
         name: employee
         columns:
-        - first_name VARCHAR(20)
-        - last_name VARCHAR(2)
-        - city_name VARCHAR(20)
-        - email VARCHAR(20)
+        - first_name VARCHAR(50)
+        - last_name VARCHAR(50)
+        - city_name VARCHAR(50)
+        - email VARCHAR(50)
       become_user: postgres
 
