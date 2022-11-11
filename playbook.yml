@@ -6,5 +6,4 @@
           #   - apache
           - postgresql
             # - php
-            # - deploiement
-          - deploiement_jenkins
+            #- deploiement_jenkins
