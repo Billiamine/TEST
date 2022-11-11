@@ -1,9 +1,9 @@
 
 <?php
 
-$user = "lampp";
-$password = "lampp";
-$database = "lampp";
+$user = "caux";
+$password = "caux";
+$database = "caux";
 $table = "employee";
 $conn= new PDO("pgsql:host=192.168.52.142;dbname=$database", $user, $password);
 

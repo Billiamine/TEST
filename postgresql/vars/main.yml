@@ -1,7 +1,7 @@
 ---
 # vars file for postgresql
-db_user: lampp
-db_password: lampp
-db_name: lampp
+db_user: caux
+db_password: caux
+db_name: caux
 
 

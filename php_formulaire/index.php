@@ -24,9 +24,9 @@
 <h1> Table des employées</h1>
 
 <?php
-$user = "lampp";
-$password = "lampp";
-$database = "lampp";
+$user = "caux";
+$password = "caux";
+$database = "caux";
 $table = "employee";
 
 
